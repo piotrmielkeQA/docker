@@ -3,7 +3,7 @@ This project is a guide to using Docker.
 The project included below things: 
 - Basic commands
 - Docker run (commands, examples)
-- Docker images 
+- Docker images (how to create a new image, push an image to docker hub page)
 - Docker compose
 - Docker registry
 - Docker engine, Storage, Network
@@ -13,6 +13,7 @@ The project included below things:
 
 ## Links
 - [Docker-Images](https://hub.docker.com/)
+- [WebApp-Flask](https://github.com/rafi9898/simple-webapp-flask)
 
   
 ## How to start:
@@ -20,7 +21,7 @@ The project included below things:
 2. Clone this repository.
 
 ```
-git clone [https://github.com/piotrmielkeQA/Javascript-Cypress.git](https://github.com/piotrmielkeQA/docker.git)
+git clone https://github.com/piotrmielkeQA/docker.git
 
 ```
 2. Open Powershell
