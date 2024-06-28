@@ -20,9 +20,10 @@ The project included below things:
 2. Clone this repository.
 
 ```
-git clone https://github.com/piotrmielkeQA/Javascript-Cypress.git
+git clone [https://github.com/piotrmielkeQA/Javascript-Cypress.git](https://github.com/piotrmielkeQA/docker.git)
 
 ```
+2. Open Powershell
 3. Run Docker image. For example:
 
 ```
