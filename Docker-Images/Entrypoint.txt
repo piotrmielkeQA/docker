@@ -1,0 +1,5 @@
+
+ENTRYPOINT to instrukcja w Dockerfile, która określa polecenie, które zostanie uruchomione, gdy kontener zostanie uruchomiony
+
+Przykład: 
+ENTRYPOINT ["echo", "Hello, Docker!"]
