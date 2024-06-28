@@ -1,0 +1,14 @@
+Przykłady użycia: 
+
+Uruchomienie podstawowego kontenera: 
+docker run ubuntu 
+
+Uruchomienie kontenera w tle: 
+docker run -d nginx
+
+Mapowanie portów: 
+docker run -p 8080:80 nginx
+
+Montowane woluminu:
+
+docker run -v /host/path:/container/path -d nginx

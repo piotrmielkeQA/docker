@@ -1,0 +1,12 @@
+
+docker ps - Lista działajacych kontenerów
+Wyświetla listę kontenerów działających w danym momencie
+
+docker stop - Zatrzymanie kontenera
+Zatrzymuje działający kontenera
+
+docker rm - Usuwanie kontenera
+Usuwa zatrzymany kontenera
+
+docker logs - Przeglądanie logów kontenera
+Pozwala na przeglądanie logów generowanych przez kontener

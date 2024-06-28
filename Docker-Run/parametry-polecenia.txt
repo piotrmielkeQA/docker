@@ -1,0 +1,11 @@
+-d - Uruchamianie w tle (detach mode)
+Pozwala kontenerowi działac w tle, nie blokując terminala
+
+-p - Mapowanie portów
+Pozwala mapować porty hosta na porty kontenera
+
+-v Montowanie woluminów
+Pozwala na współdzielenie danych między hostem a kontenerem
+
+--name - Nadawnie nazwy kontenerowi 
+Umożliwia nadanie nazwy kontenerowi, zamiast korzystania z losowej nazwy 

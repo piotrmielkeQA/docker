@@ -1,0 +1,33 @@
+
+Uruchomienie kontenera:
+docker run nazwa_obrazu
+
+Wykonywanie różnych interakcji bezpośrednio w naszym kontenerze:
+docker run -it nazwa_obrazu bash 
+
+Uruchomienie konteneru, który będzie działal w tle (detached):
+docker run -d nazwa_obrazu
+
+Wylistowanie obecnie uruchomionych kontenerów:
+docker ps
+
+Wylistowanie obecnie uruchomionych jak i zatrzymany kontenerów:
+docker ps -a
+
+Zatrzymanie działające kontenera:
+docker stop [id_kontenera]
+
+Usunięcie danego kontenera: 
+docker rm [id_kontenera]
+
+Wyświetla listę wszystkich pobranych obrazów: 
+docker images
+
+Usunięcie dowolnego obrazu z naszego dockera: 
+docker rmi [obraz]
+
+Pobranie obrazu z repozytorium obrazów na naszego dockera: 
+docker pull [nazwa_obrazu]
+
+Uruchomienie polecenia na naszym kontenerze: 
+docker exec [nazwa_obrazu] [polecenie]
