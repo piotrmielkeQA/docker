@@ -1,0 +1,35 @@
+Docker Compose to narzędze służące do definiowania i uruchamiania wielu kontenerów Dockera jako jednej aplikacji 
+
+Podstawowe pojęcia: 
+
+- Service: Denifuje jednostkową usługę w aplikacji 
+- Container: Jednostkowy, izolowany proces uruchomiony z obrazu Dockera
+- Volume: Umożliwia trwałe przechowywanie danych między konternerami 
+
+Struktura pliku docker-compose.yml
+
+Plik docker-compose.yml zawiera definicuje usług, kontenerów, sieci i innych elementów konfiguracyjnych
+
+Przykładowa struktura: 
+
+version: '3'
+
+services: 
+    web:
+        image: nginx
+        ports:
+            - "8080:80"
+
+
+Konfiguracja usług: 
+- Image: Określa obraz, który ma zostać użyty do zbudowania konternera
+- Ports: Mapuje porty kontenera na porty hosta
+- Volumes: Montuje system plików do kontenera
+- Environment: Ustawia zmienne środowiskowe
+
+
+Uruchamianie aplikacji: 
+
+- Komenda docker-compose up - uruchamia aplikację zgodnie z konfiguracją
+- Opcja -d pozwala uruchomić w trybie tła
+- Komenda docker-compose down zatrzymuje i usuwa zasoby aplikacji 
